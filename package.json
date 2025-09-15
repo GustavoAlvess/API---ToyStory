@@ -1,0 +1,27 @@
+{
+  "name": "api---toystory",
+  "version": "1.0.0",
+  "description": "Repositório para registro dos exercícios de API com CRUD completo",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoAlvess/API---ToyStory.git"
+  },
+  "keywords": ["NODE.JS", "API"],
+  "author": "Gustavo Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GustavoAlvess/API---ToyStory/issues"
+  },
+  "homepage": "https://github.com/GustavoAlvess/API---ToyStory#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
